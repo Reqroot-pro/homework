@@ -27,6 +27,8 @@
 
 ![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/hw8.3/img/1.png)
 
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/hw8.3/img/2.png)
+
 
 ---
 
