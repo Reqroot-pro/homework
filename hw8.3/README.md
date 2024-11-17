@@ -54,6 +54,6 @@ build:
 
 ![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/hw8.3/img/3.png)
 
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/hw8.3/img/4.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/hw8.3/img/5.png)
 
-![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/hw8.3/img/5.png)
+![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/hw8.3/img/4.png)
