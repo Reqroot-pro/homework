@@ -30,7 +30,7 @@ docker build .
 ```
 
 
-![скриншот 1](https://github.com/Reqroot-pro/sys-pattern-homework/blob/main/homework2/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/hw8.2/img/1.png)
 
 
 ![скриншот 2](https://github.com/Reqroot-pro/sys-pattern-homework/blob/main/homework2/img/2.png)
