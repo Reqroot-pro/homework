@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "`Система мониторинга Zabbix`" - ` Гайнуллин Дамир`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -39,8 +39,8 @@ sudo -u postgres createdb -O zabbix zabbix
 zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
 ```
 
-![скриншот 1](ссылка на скриншот 1)
-![скриншот 2](ссылка на скриншот 1) 
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/zabbix/img/1.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/zabbix/img/2.png) 
 
 ---
 
@@ -54,5 +54,5 @@ sudo nano /etc/zabbix/zabbix_agentd.conf
 
 ```
 
-![скриншот 1](ссылка на скриншот 1)
-![скриншот 2](ссылка на скриншот 1)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/zabbix/img/3.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/zabbix/img/4.png)
