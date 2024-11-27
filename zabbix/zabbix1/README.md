@@ -39,7 +39,7 @@ sudo -u postgres createdb -O zabbix zabbix
 zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
 ```
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/zabbix/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/zabbix/zabbix1/img/1.png)
 
 ---
 
@@ -52,6 +52,6 @@ sudo apt install zabbix-agent
 sudo nano /etc/zabbix/zabbix_agentd.conf
 
 ```
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/zabbix/img/2.png)
-![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/zabbix/img/3.png)
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/zabbix/img/4.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/zabbix/zabbix1/img/2.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/zabbix/zabbix1/img/3.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/zabbix/zabbix1/img/4.png)
