@@ -30,28 +30,62 @@
 
 ---
 
-### Задание 2
-
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+### Задание 2 
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+#!/bin/bash
+
+WEB_PORT=80
+INDEX_FILE="/var/www/html/index.nginx-debian.html"
+
+# Проверка доступности порта
+if ! nc -z 192.168.56.30 $WEB_PORT; then
+    exit 1
+fi
+
+# Проверка наличия файла index.html
+if [ ! -f "$INDEX_FILE" ]; then
+    exit 1
+fi
+
+# Если всё в порядке
+exit 0
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+```
+global_defs {
+	enable_script_security
+}
 
+vrrp_script check_web {
+	script "/usr/local/bin/check_web.sh"
+	user keepalived_script
+	interval 3
+	fall 2
+	rise 1
+}
+
+vrrp_instance VI_1 {
+        state MASTER
+        interface enp0s8
+        virtual_router_id 35
+        priority 255
+        advert_int 1
+
+        virtual_ipaddress {
+		192.168.56.35/24
+	}
+
+	track_script {
+		check_web
+
+	}
+}
+```
+
+
+
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/disaster%20recovery%20-%20keepalived/img/2.png)
 
 ---
 
