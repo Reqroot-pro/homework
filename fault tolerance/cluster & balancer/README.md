@@ -27,7 +27,7 @@
 `Файл haproxy приложен`
 
 
-![скриншот 1](ссылка на скриншот 1)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/cluster%20%26%20balancer/img/1.png)
 
 
 ---
