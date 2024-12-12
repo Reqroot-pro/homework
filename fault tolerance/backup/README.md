@@ -26,7 +26,7 @@
 
 
 
-![скриншот 1]([ссылка на скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/backup/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/backup/img/1.png)
 
 
 ---
@@ -34,9 +34,9 @@
 ### Задание 2
 
 
-![скриншот 2][(ссылка на скриншот 2)](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/backup/img/2.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/backup/img/2.png)
 
-![скриншот 3][(ссылка на скриншот 3)](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/backup/img/3.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/backup/img/3.png)
 
 
 ---
