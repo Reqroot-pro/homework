@@ -27,7 +27,7 @@
 
 `При необходимости прикрепитe сюда скриншоты
 ![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/fault%20cloud/img/1.png)`
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/fault%20cloud/img/1.png)`
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/fault%20cloud/img/2.png)`
 
 
 ---
