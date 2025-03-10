@@ -49,6 +49,8 @@
 
 Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
 
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.03/img/2.png)
+
 ---
 
 ### Задание 3. Logstash
@@ -56,12 +58,16 @@
 
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
 
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.03/img/3.png)
+
 ---
 
 ### Задание 4. Filebeat.
 Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
 
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
+
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.03/img/4.png)
 
 ---
 
