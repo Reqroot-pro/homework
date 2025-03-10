@@ -24,7 +24,7 @@
 
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
 
-https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/1.png 
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/1.png)
 
 ---
 
@@ -47,8 +47,8 @@ $ pip install pika
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
-https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/2.png
-https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/3.png
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/2.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/3.png)
 
 ---
 
@@ -84,6 +84,11 @@ $ rabbitmqadmin get queue='hello'
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
+
+![скриншот 4]()
+![скриншот 5]()
+![скриншот 6]()
+![скриншот 7]()
 
 
 ## Дополнительные задания (со звёздочкой*)
