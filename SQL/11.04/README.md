@@ -85,8 +85,8 @@ $ rabbitmqadmin get queue='hello'
 
 *Приложите скриншот результата работы второго скрипта.*
 
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/4.png)
-![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/5.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/4.1.png)
+![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/5.1.png)
 ![скриншот 6](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/6.png)
 ![скриншот 7](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/7.png)
 
