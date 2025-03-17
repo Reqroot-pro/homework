@@ -26,7 +26,7 @@
 SELECT DISTINCT district  
 FROM address  
 WHERE district LIKE 'K%a' AND district NOT LIKE '% %';  
-
+```
 Kanagawa
 Kalmykia
 Kaduna
@@ -34,7 +34,7 @@ Karnataka
 Kütahya
 Kerala
 Kitaa
-
+```
 ### Задание 2
 
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года **включительно** и стоимость которых превышает 10.00.
