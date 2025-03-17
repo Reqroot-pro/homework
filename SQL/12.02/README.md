@@ -21,8 +21,11 @@
 
 ### Задание 1
 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/1.png)
 
 1.2. Создайте учётную запись sys_temp. 
+CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/2.png)
 
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
