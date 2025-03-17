@@ -62,9 +62,37 @@ HAVING
 
 Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
 
+```
+SELECT COUNT(*) AS movies_avg
+FROM film
+WHERE length > (SELECT AVG(length) FROM film);
+```
+```
+| movies_avg |
+|------------|
+| 489        |
+```
+
+
 ### Задание 3
 
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
+
+```
+SELECT DATE_FORMAT(payment_date, '%Y-%m') AS month,
+       SUM(amount) AS total_payment,
+       COUNT(r.rental_id) AS rental_count
+FROM payment p
+JOIN rental r ON p.rental_id = r.rental_id
+GROUP BY month
+ORDER BY total_payment DESC
+LIMIT 1;
+```
+```
+| month   | total_payment | rental_count |
+|---------|---------------|--------------|
+| 2005-07 | 28368.91      | 6709         |
+```
 
 
 ## Дополнительные задания (со звёздочкой*)
