@@ -39,7 +39,6 @@ GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost' WITH GRANT OPTION;
 SHOW GRANTS FOR 'sys_temp'@'localhost';
 ![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/5.png)
 
-
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
 Для смены типа аутентификации с sha2 используйте запрос: 
@@ -53,6 +52,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
+
+![скриншот 6](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/6.png)
 
 
 ### Задание 2
