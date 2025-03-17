@@ -26,6 +26,7 @@
 - город нахождения магазина;
 - количество пользователей, закреплённых в этом магазине.
 
+```
 SELECT 
     s.first_name, 
     s.last_name, 
@@ -45,7 +46,14 @@ GROUP BY
     st.store_id, ci.city, s.first_name, s.last_name  -- группируем по магазину и сотруднику
 HAVING 
     COUNT(c.customer_id) > 300;  -- фильтруем магазины с более чем 300 покупателями
+```
 
+```
+| first_name | last_name | city       | customer_count |
+|------------|-----------|------------|----------------|
+| Mike       | Hillyer   | Lethbridge | 326            |
+
+```
 
 
 
