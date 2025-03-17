@@ -35,17 +35,17 @@ SELECT
 FROM 
     store st
 JOIN 
-    staff s ON s.store_id = st.store_id  -- связываем таблицы через store_id
+    staff s ON s.store_id = st.store_id
 JOIN 
     address a ON st.address_id = a.address_id
 JOIN 
     city ci ON a.city_id = ci.city_id
 JOIN 
-    customer c ON c.store_id = st.store_id  -- связываем с покупателями
+    customer c ON c.store_id = st.store_id
 GROUP BY 
-    st.store_id, ci.city, s.first_name, s.last_name  -- группируем по магазину и сотруднику
+    st.store_id, ci.city, s.first_name, s.last_name
 HAVING 
-    COUNT(c.customer_id) > 300;  -- фильтруем магазины с более чем 300 покупателями
+    COUNT(c.customer_id) > 300;
 ```
 
 ```
