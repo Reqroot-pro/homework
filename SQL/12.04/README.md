@@ -27,10 +27,10 @@
 - количество пользователей, закреплённых в этом магазине.
 
 SELECT  
-    s.first_name,
-    s.last_name,
-    ci.city,
-    COUNT(c.customer_id) AS customer_count
+    s.first_name, 
+    s.last_name, 
+    ci.city, 
+    COUNT(c.customer_id) AS customer_count 
 FROM  
     store st  
 JOIN  
