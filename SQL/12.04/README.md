@@ -26,24 +26,24 @@
 - город нахождения магазина;
 - количество пользователей, закреплённых в этом магазине.
 
-SELECT 
-    s.first_name, 
-    s.last_name, 
-    ci.city, 
-    COUNT(c.customer_id) AS customer_count
-FROM 
-    store st
-JOIN 
-    staff s ON s.store_id = st.store_id
-JOIN 
-    address a ON st.address_id = a.address_id
-JOIN 
-    city ci ON a.city_id = ci.city_id
-JOIN 
+SELECT  
+    s.first_name,   
+    s.last_name,  
+    ci.city,  
+    COUNT(c.customer_id) AS customer_count  
+FROM  
+    store st  
+JOIN  
+    staff s ON s.store_id = st.store_id  
+JOIN  
+    address a ON st.address_id = a.address_id  
+JOIN  
+    city ci ON a.city_id = ci.city_id  
+JOIN  
     customer c ON c.store_id = st.store_id  
-GROUP BY 
+GROUP BY  
     st.store_id, ci.city, s.first_name, s.last_name  
-HAVING 
+HAVING  
     COUNT(c.customer_id) > 300;  
 
 
