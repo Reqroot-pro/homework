@@ -33,7 +33,7 @@ SELECT User, Host FROM mysql.user;
 
 1.4. Дайте все права для пользователя sys_temp.  
 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost' WITH GRANT OPTION;
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/4.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/4.1.png)
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)  
 SHOW GRANTS FOR 'sys_temp'@'localhost';
