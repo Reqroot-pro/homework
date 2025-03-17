@@ -93,12 +93,13 @@ FROM customer
 WHERE first_name IN ('Kelly', 'Willie') AND active = 1;  
 
 ```
-|first_name|last_name|
-|----------|---------|
-|kelly|torres|
-|willie|howell|
-|willie|markham|
-|kelly|knott|
+| first_name | last_name |
+|------------|----------|
+| kelly      | torres   |
+| willie     | howell   |
+| willie     | markham  |
+| kelly      | knott    |
+
 ```
 
 
