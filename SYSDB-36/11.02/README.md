@@ -37,7 +37,7 @@
 
 Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.02/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.02/img/1.png)
 
 
 ---
@@ -48,14 +48,14 @@
 
 Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.
 
- ![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.02/img/2.png)
+ ![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.02/img/2.png)
 
 ### Задание 4. Запись данных в Redis
 Запишите в Redis несколько ключей с любыми именами и значениями.
 
 Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.
 
- ![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.02/img/3.png)
+ ![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.02/img/3.png)
 
 ---
 
