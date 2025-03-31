@@ -30,10 +30,10 @@ docker build .
 ```
 
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.2/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.2/img/1.png)
 
 
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.2/img/2.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.2/img/2.png)
 
 
 ---
@@ -62,9 +62,9 @@ pipeline {
 }
 ```
 
-![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.2/img/3.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.2/img/3.png)
 
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.2/img/4.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.2/img/4.png)
 
 
 ---
@@ -119,8 +119,8 @@ pipeline {
 
 ```
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.2/img/5.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.2/img/5.png)
 
 
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.2/img/6.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.2/img/6.png)
 
