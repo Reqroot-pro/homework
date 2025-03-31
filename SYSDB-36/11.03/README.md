@@ -40,7 +40,7 @@
 
 Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.03/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.03/img/1.png)
 
 ---
 
@@ -49,7 +49,7 @@
 
 Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
 
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.03/img/2.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.03/img/2.png)
 
 ---
 
@@ -58,7 +58,7 @@
 
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
 
-![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.03/img/3.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.03/img/3.png)
 
 ---
 
@@ -67,7 +67,7 @@
 
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
 
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.03/img/4.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.03/img/4.png)
 
 ---
 
