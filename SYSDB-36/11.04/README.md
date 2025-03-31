@@ -24,7 +24,7 @@
 
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/1.png)
 
 ---
 
