@@ -28,7 +28,7 @@
 
 ```
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SMON-36/zabbix/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SMON-36/zabbix/hw-03/img/1.png)
 
 ---
 
@@ -38,7 +38,7 @@
 ```
 
 ```
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SMON-36/zabbix/img/2-3.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SMON-36/zabbix/hw-03/img/2-3.png)
 
 ### Задание 4
 
@@ -46,4 +46,4 @@
 ```
 
 ```
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SMON-36/zabbix/img/4.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SMON-36/zabbix/hw-03/img/4.png)
