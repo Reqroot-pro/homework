@@ -42,6 +42,7 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
   ![Скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.05/img/2.png)
 
 - Узкие места
+
 1️Фильтрация по дате с DATE(p.payment_date) = '2005-07-30'
 Использование DATE() в WHERE приводит к полному сканированию таблицы (Full Table Scan), так как MySQL не может использовать индекс по payment_date.
 
