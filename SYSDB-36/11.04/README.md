@@ -47,8 +47,8 @@ $ pip install pika
 
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/2.png)
-![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/3.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/2.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/3.png)
 
 ---
 
@@ -85,13 +85,13 @@ $ rabbitmqadmin get queue='hello'
 
 *Приложите скриншот результата работы второго скрипта.*
 
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/4.1.png)
-![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/5.1.png)
-![скриншот 6](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/6.png)
-![скриншот 7](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/7.png)
-![скриншот 8](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/8.png)
-![скриншот 9](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/9.png)
-![скриншот 10](https://github.com/Reqroot-pro/homework/blob/main/SQL/11.04/img/10.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/4.1.png)
+![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/5.1.png)
+![скриншот 6](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/6.png)
+![скриншот 7](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/7.png)
+![скриншот 8](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/8.png)
+![скриншот 9](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/9.png)
+![скриншот 10](https://github.com/Reqroot-pro/homework/blob/main/SYSDB-36/11.04/img/10.png)
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
