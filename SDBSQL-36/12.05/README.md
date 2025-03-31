@@ -31,7 +31,7 @@ WHERE TABLE_SCHEMA = 'sakila';
 ### Задание 2
 
 Выполните explain analyze следующего запроса:
-```sql
+```
 select distinct concat(c.last_name, ' ', c.first_name), sum(p.amount) over (partition by c.customer_id, f.title)
 from payment p, rental r, customer c, inventory i, film f
 where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and r.customer_id = c.customer_id and i.inventory_id = r.inventory_id
@@ -44,13 +44,12 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 - Узкие места
 
 1️Фильтрация по дате с DATE(p.payment_date) = '2005-07-30'
-Использование DATE() в WHERE приводит к полному сканированию таблицы (Full Table Scan), так как MySQL не может использовать индекс по payment_date.
+Использование DATE() в WHERE приводит к полному сканированию таблицы, так как MySQL не может использовать индекс по payment_date.
 
 2️Использование DISTINCT
-Если в выборке уже есть GROUP BY или WINDOW FUNCTION, то DISTINCT может быть лишним, так как он добавляет дополнительную операцию сортировки.
+DISTINCT может быть лишним, так как он добавляет дополнительную операцию сортировки.
 
-3️Соединение пяти таблиц (payment, rental, customer, inventory, film)
-Если на rental, inventory или film нет индексов на customer_id, inventory_id или film_id, то могут происходить долгие соединения через Nested Loop Join.
+3️Нет JOIN
 
 4️Отсутствие индексов
 
