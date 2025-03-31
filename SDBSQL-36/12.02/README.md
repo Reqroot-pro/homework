@@ -53,7 +53,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 *Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.*
 
-![скриншот 6](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/6.png)
+![скриншот 6](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.02/img/6.png)
 
 
 ### Задание 2
