@@ -25,7 +25,7 @@ SELECT
 FROM information_schema.tables
 WHERE TABLE_SCHEMA = 'sakila';
 ```
-[Скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.05/img/1.png)
+![Скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.05/img/1.png)
 
 
 ### Задание 2
