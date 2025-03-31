@@ -39,6 +39,48 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 - перечислите узкие места;
 - оптимизируйте запрос: внесите корректировки по использованию операторов, при необходимости добавьте индексы.
 
+  ![Скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.05/img/2.png)
+
+- Узкие места
+1️Фильтрация по дате с DATE(p.payment_date) = '2005-07-30'
+Использование DATE() в WHERE приводит к полному сканированию таблицы (Full Table Scan), так как MySQL не может использовать индекс по payment_date.
+
+2️Использование DISTINCT
+Если в выборке уже есть GROUP BY или WINDOW FUNCTION, то DISTINCT может быть лишним, так как он добавляет дополнительную операцию сортировки.
+
+3️Соединение пяти таблиц (payment, rental, customer, inventory, film)
+Если на rental, inventory или film нет индексов на customer_id, inventory_id или film_id, то могут происходить долгие соединения через Nested Loop Join.
+
+4️Отсутствие индексов
+
+
+
+- Оптимизированный запрос
+  
+```
+EXPLAIN ANALYZE
+SELECT 
+    CONCAT(c.last_name, ' ', c.first_name) AS customer_name, 
+    f.title AS film_title,
+    SUM(p.amount) OVER (PARTITION BY c.customer_id, f.title) AS total_payment
+FROM payment p
+JOIN rental r ON p.payment_date = r.rental_date
+JOIN customer c ON r.customer_id = c.customer_id
+JOIN inventory i ON i.inventory_id = r.inventory_id
+JOIN film f ON i.film_id = f.film_id
+WHERE p.payment_date >= '2005-07-30 00:00:00' 
+  AND p.payment_date < '2005-07-31 00:00:00';
+```
+
+```
+CREATE INDEX idx_payment_date ON payment(payment_date);
+CREATE INDEX idx_rental_customer ON rental(customer_id);
+CREATE INDEX idx_inventory_film ON inventory(film_id);
+CREATE INDEX idx_payment_partition ON payment (customer_id, amount);
+
+```
+
+
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
 
