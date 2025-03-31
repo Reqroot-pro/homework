@@ -21,23 +21,23 @@
 
 ### Задание 1
 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.02/img/1.png)
 
 1.2. Создайте учётную запись sys_temp.  
 CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/2.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.02/img/2.png)
 
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)  
 SELECT User, Host FROM mysql.user;
-![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/3.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.02/img/3.png)
 
 1.4. Дайте все права для пользователя sys_temp.  
 GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost' WITH GRANT OPTION;
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/4.1.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.02/img/4.1.png)
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)  
 SHOW GRANTS FOR 'sys_temp'@'localhost';
-![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/SQL/12.02/img/5.png)
+![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.02/img/5.png)
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
