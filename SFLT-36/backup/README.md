@@ -26,7 +26,7 @@
 
 
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/fault%20tolerance/backup/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/backup/img/1.png)
 
 
 ---
@@ -34,9 +34,9 @@
 ### Задание 2
 
 
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/fault%20tolerance/backup/img/2.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/backup/img/2.png)
 
-![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/fault%20tolerance/backup/img/3.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/backup/img/3.png)
 
 
 ---
