@@ -25,7 +25,7 @@
 ### Задание 1
 
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/disaster%20recovery%20-%20keepalived/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/disaster%20recovery%20-%20keepalived/img/1.png)
 
 
 ---
@@ -85,7 +85,7 @@ vrrp_instance VI_1 {
 
 
 
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/disaster%20recovery%20-%20keepalived/img/2.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/disaster%20recovery%20-%20keepalived/img/2.png)
 
 ---
 
