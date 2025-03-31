@@ -25,9 +25,9 @@
 ### Задание 1
 
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.3/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.3/img/1.png)
 
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.3/img/2.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.3/img/2.png)
 
 
 ---
@@ -52,8 +52,8 @@ build:
    - docker build .
 ```
 
-![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.3/img/3.png)
+![скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.3/img/3.png)
 
-![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.3/img/5.png)
+![скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.3/img/5.png)
 
-![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/git/hw8.3/img/4.png)
+![скриншот 5](https://github.com/Reqroot-pro/homework/blob/main/CICD-36/sdvps/hw8.3/img/4.png)
