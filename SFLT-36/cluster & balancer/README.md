@@ -27,7 +27,7 @@
 `Файл haproxy1.cfg приложен`
 
 
-![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/cluster%20%26%20balancer/img/1.png)
+![скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/cluster%20%26%20balancer/img/1.png)
 
 
 ---
@@ -37,7 +37,7 @@
 `Файл haproxy2.cfg приложен`
 
 
-![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/fault%20tolerance/cluster%20%26%20balancer/img/2.png)
+![скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SFLT-36/cluster%20%26%20balancer/img/2.png)
 
 
 ---
