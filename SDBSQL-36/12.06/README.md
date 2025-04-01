@@ -36,6 +36,11 @@ Master-Master – лучше для высоких нагрузок и отка�
 
 *Приложите скриншоты конфигурации, выполнения работы: состояния и режимы работы серверов.*
 
+![Скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.06/img/1.png)
+![Скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.06/img/2.png)
+![Скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.06/img/3.png)
+![Скриншот 4](https://github.com/Reqroot-pro/homework/blob/main/SDBSQL-36/12.06/img/4.png)
+
 ---
 
 ## Дополнительные задания (со звёздочкой*)
