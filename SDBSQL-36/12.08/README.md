@@ -43,6 +43,18 @@
 
 *Приведите ответ в свободной форме.*
 
+
+```
+2.1
+ Создание дампа: pg_dump -U postgres -d my_database -F t -f backup.dump
+ Восстановление из дампа: pg_restore -U postgres -d new_database -F t backup.dump
+ Если нужно восстановить базу с нуля, вначале нужно создать новую базу: createdb -U postgres new_database
+
+ * Автоматизация: через cron или Bash-скрипт.
+
+
+```
+
 ---
 
 ### Задание 3. MySQL
@@ -52,6 +64,20 @@
 3.1.* В каких случаях использование реплики будет давать преимущество по сравнению с обычным резервным копированием?
 
 *Приведите ответ в свободной форме.*
+
+
+```
+3.1
+Инкрементный бэкап в MySQL можно делать через бинарные логи (mysqlbinlog).
+Перед инкрементными копиями сначала создаём полный дамп:
+mysqldump -u root -p --all-databases --flush-logs --single-transaction > full_backup.sql
+
+Делаем инкрементные копии (сохраняем бинарные логи)
+mysqlbinlog --read-from-remote-server --host=localhost --user=root --password=password mysql-bin.000001 > inc_backup.sql
+
+
+* Репликация удобнее для отказоустойчивости и быстрого восстановления, но требует больше ресурсов.
+```
 
 ---
 
