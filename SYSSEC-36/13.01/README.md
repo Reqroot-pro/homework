@@ -81,7 +81,7 @@ HTTP (8180/tcp) — Apache Tomcat/Coyote JSP engine 1.1
 ```
 
 ### Обнаруженные уязвимости:
-
+```
 vsftpd 2.3.4 (CVE-2011-2523): версия 2.3.4 имеет уязвимость backdoor (зловредный код), которая позволяет удалённым пользователям получить доступ к серверу с правами root.
 ```
 Ссылка: [Exploit-DB: vsftpd 2.3.4 - Backdoor Command Execution](https://www.exploit-db.com/exploits/49757)
