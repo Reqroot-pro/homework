@@ -78,21 +78,22 @@ IRC (6667/tcp) — UnrealIRCd
 AJP13 (8009/tcp) — Apache Jserv Protocol v1.3
 
 HTTP (8180/tcp) — Apache Tomcat/Coyote JSP engine 1.1
-
+```
+```
 ### Обнаруженные уязвимости:
 
 vsftpd 2.3.4 (CVE-2011-2523): версия 2.3.4 имеет уязвимость backdoor (зловредный код), которая позволяет удалённым пользователям получить доступ к серверу с правами root.
-
-Ссылка: [Exploit-DB: vsftpd 2.3.4 - Backdoor Command Execution](https://www.exploit-db.com/exploits/49757)
-
-OpenSSH 4.7p1 (CVE-2008-5161): Уязвимость в старых версиях OpenSSH позволяет злоумышленникам провести атаку с повторным использованием ключа, что может привести к возможности дешифрования трафика.
-
-Ссылка: [Exploit-DB: OpenSSH 4.7p1 - Multiple Vulnerabilities](https://www.exploit-db.com/exploits/13031)
-
-Apache Tomcat 5.5 (CVE-2015-5351): Уязвимость позволяет исполнение произвольного кода через несоответствующие фильтры или неправильную обработку определённых типов данных, что может позволить злоумышленнику выполнить вредоносный код на сервере.
-
-Ссылка: [Exploit-DB: Apache Tomcat 5.5 - Remote Code Execution](https://www.exploit-db.com/exploits/13031)
 ```
+Ссылка: [Exploit-DB: vsftpd 2.3.4 - Backdoor Command Execution](https://www.exploit-db.com/exploits/49757)
+```
+OpenSSH 4.7p1 (CVE-2008-5161): Уязвимость в старых версиях OpenSSH позволяет злоумышленникам провести атаку с повторным использованием ключа, что может привести к возможности дешифрования трафика.
+```
+Ссылка: [Exploit-DB: OpenSSH 4.7p1 - Multiple Vulnerabilities](https://www.exploit-db.com/exploits/13031)
+```
+Apache Tomcat 5.5 (CVE-2015-5351): Уязвимость позволяет исполнение произвольного кода через несоответствующие фильтры или неправильную обработку определённых типов данных, что может позволить злоумышленнику выполнить вредоносный код на сервере.
+```
+Ссылка: [Exploit-DB: Apache Tomcat 5.5 - Remote Code Execution](https://www.exploit-db.com/exploits/13031)
+
 
 ### Задание 2
 
