@@ -35,6 +35,9 @@
 
 *В качестве ответа пришлите снимки экрана с поэтапным выполнением задания.*
 
+![Скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SYSSEC-36/13.02/img/2.png)
+![Скриншот 3](https://github.com/Reqroot-pro/homework/blob/main/SYSSEC-36/13.02/img/3.png)
+
 
 ## Дополнительные задания (со звёздочкой*)
 
