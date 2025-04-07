@@ -38,6 +38,60 @@
   
 *Приведите ответ в свободной форме.*  
 
+```
+Разрешённые сетевые службы:
+FTP (21/tcp) — vsftpd 2.3.4 (с анонимным доступом)
+
+SSH (22/tcp) — OpenSSH 4.7p1
+
+Telnet (23/tcp) — Linux telnetd
+
+SMTP (25/tcp) — Postfix smtpd
+
+DNS (53/tcp) — ISC BIND 9.4.2
+
+HTTP (80/tcp) — Apache httpd 2.2.8
+
+RPCBind (111/tcp) — RPC Bind 2
+
+NetBIOS (139/tcp, 445/tcp) — Samba smbd 3.X - 4.X
+
+Exec (512/tcp) — netkit-rsh rexecd
+
+Login (513/tcp) — OpenBSD или Solaris rlogind
+
+Java RMI (1099/tcp) — GNU Classpath grmiregistry
+
+NFS (2049/tcp) — NFS 2-4
+
+MySQL (3306/tcp) — MySQL 5.0.51a-3ubuntu5
+
+PostgreSQL (5432/tcp) — PostgreSQL DB 8.3.0 - 8.3.7
+
+VNC (5900/tcp) — VNC (протокол 3.3)
+
+X11 (6000/tcp) — (доступ запрещён)
+
+IRC (6667/tcp) — UnrealIRCd
+
+AJP13 (8009/tcp) — Apache Jserv Protocol v1.3
+
+HTTP (8180/tcp) — Apache Tomcat/Coyote JSP engine 1.1
+
+Обнаруженные уязвимости:
+vsftpd 2.3.4 (CVE-2011-2523): версия 2.3.4 имеет уязвимость backdoor (зловредный код), которая позволяет удалённым пользователям получить доступ к серверу с правами root.
+
+Ссылка: Exploit-DB: vsftpd 2.3.4 - Backdoor Command Execution
+
+OpenSSH 4.7p1 (CVE-2008-5161): Уязвимость в старых версиях OpenSSH позволяет злоумышленникам провести атаку с повторным использованием ключа, что может привести к возможности дешифрования трафика.
+
+Ссылка: Exploit-DB: OpenSSH 4.7p1 - Multiple Vulnerabilities
+
+Apache Tomcat 5.5 (CVE-2015-5351): Уязвимость позволяет исполнение произвольного кода через несоответствующие фильтры или неправильную обработку определённых типов данных, что может позволить злоумышленнику выполнить вредоносный код на сервере.
+
+Ссылка: Exploit-DB: Apache Tomcat 5.5 - Remote Code Execution
+```
+
 ### Задание 2
 
 Проведите сканирование Metasploitable в режимах SYN, FIN, Xmas, UDP.
