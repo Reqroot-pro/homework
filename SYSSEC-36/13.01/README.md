@@ -82,17 +82,20 @@ HTTP (8180/tcp) — Apache Tomcat/Coyote JSP engine 1.1
 
 ### Обнаруженные уязвимости:
 ```
-vsftpd 2.3.4 (CVE-2011-2523): версия 2.3.4 имеет уязвимость backdoor (зловредный код), которая позволяет удалённым пользователям получить доступ к серверу с правами root.
+Уязвимость vsftpd 2.3.4 (Backdoor Command Execution)
+Описание : Версия vsftpd 2.3.4 содержит известную уязвимость, позволяющую злоумышленнику выполнить произвольный код на сервере через специальный payload в имени пользователя.
 ```
-Ссылка: [Exploit-DB: vsftpd 2.3.4 - Backdoor Command Execution](https://www.exploit-db.com/exploits/49757)
+Ссылка: [Exploit-DB: vsftpd 2.3.4 Backdoor](https://www.exploit-db.com/exploits/17491)
 ```
-OpenSSH 4.7p1 (CVE-2008-5161): Уязвимость в старых версиях OpenSSH позволяет злоумышленникам провести атаку с повторным использованием ключа, что может привести к возможности дешифрования трафика.
+Уязвимость Samba 3.0.20 (Username Map Script Remote Code Execution)
+Описание : В версии Samba 3.0.20 существует уязвимость, позволяющая удаленному атакующему выполнить произвольный код на сервере через неправильную обработку параметра username map script.
 ```
-Ссылка: [Exploit-DB: OpenSSH 4.7p1 - Multiple Vulnerabilities](https://www.exploit-db.com/exploits/13031)
+Ссылка: [Exploit-DB: Samba Username Map Script RCE](https://www.exploit-db.com/exploits/16320)
 ```
-Apache Tomcat 5.5 (CVE-2015-5351): Уязвимость позволяет исполнение произвольного кода через несоответствующие фильтры или неправильную обработку определённых типов данных, что может позволить злоумышленнику выполнить вредоносный код на сервере.
+Уязвимость UnrealIRCd 3.2.8.1 (Backdoor Command Execution)
+Описание : Версия UnrealIRCd 3.2.8.1 содержит бэкдор, который позволяет злоумышленнику выполнить произвольные команды на сервере через специально сформированный запрос.
 ```
-Ссылка: [Exploit-DB: Apache Tomcat 5.5 - Remote Code Execution](https://www.exploit-db.com/exploits/13031)
+Ссылка: [Exploit-DB: UnrealIRCd 3.2.8.1 Backdoor](https://www.exploit-db.com/exploits/13853)
 
 
 ### Задание 2
