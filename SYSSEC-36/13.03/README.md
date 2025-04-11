@@ -50,6 +50,28 @@
 
 ![Скриншот 1](https://github.com/Reqroot-pro/homework/blob/main/SYSSEC-36/13.03/img/1.png)
 ```
+Здесь Suricata обнаруживает множественные подозрительные подключения и сканирования портов. В логах видно:
+
+⚠Обнаружения:
+ET SCAN Suspicious inbound to MSSQL, PostgreSQL, MySQL, Oracle ports
+
+Это типичные базы данных — Suricata реагирует на попытки подключения к этим портам, подозревая сканирование.
+
+ET SCAN Potential VNC Scan
+
+Попытка просканировать порты, связанные с VNC (Virtual Network Computing) — может быть потенциальной атакой.
+
+ET INFO Unconfigured nginx Access
+
+Кто-то (в данном случае — вторая машина) подключается к веб-серверу nginx, который ещё не сконфигурирован — Suricata просто сообщает об этом.
+
+ET SCAN Nmap Scripting Engine
+
+Suricata определила использование nmap -sV, так как оно отправляет характерные сигнатуры (определение версий сервисов).
+
+ET SCAN Possible Nmap User-Agent Observed
+
+В nmap -sV запросе HTTP использовался заголовок User-Agent, типичный для Nmap — Suricata это заметила.
 ```
 
 
