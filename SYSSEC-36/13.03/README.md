@@ -76,13 +76,6 @@ ET SCAN Possible Nmap User-Agent Observed
 
 
 
-![Скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SYSSEC-36/13.03/img/2.png)
-``` 
-Здесь мы видим что после нескольких неуспешных авторизации, приложение заблокировало ip с которого осуществлялся подбор.
-```
-
-
-
 ------
 
 ### Задание 2
@@ -109,3 +102,8 @@ ET SCAN Possible Nmap User-Agent Observed
 
 
 *В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.*
+
+![Скриншот 2](https://github.com/Reqroot-pro/homework/blob/main/SYSSEC-36/13.03/img/2.png)
+``` 
+Здесь мы видим что после нескольких неуспешных авторизации, приложение заблокировало ip с которого осуществлялся подбор.
+```
